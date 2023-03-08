@@ -15,9 +15,9 @@ function App() {
     <BrowserRouter>
     <Navbar/>
     <Routes>
-    <Route path="/" element={<Home/>}/>
-    <Route path="nosotros" element={<Nosotros/>}/>
-    <Route path="shablones" element={<Shablones/>}/>
+    <Route path="/fatugrab" element={<Home/>}/>
+    <Route path="/nosotros" element={<Nosotros/>}/>
+    <Route path="/shablones" element={<Shablones/>}/>
     </Routes>
     </BrowserRouter>
     
