@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/fatugrab/static/css/main.fd7c1797.css",
+    "main.js": "/fatugrab/static/js/main.7c64c471.js",
+    "static/js/787.4367f2dd.chunk.js": "/fatugrab/static/js/787.4367f2dd.chunk.js",
+    "static/media/insumos.png": "/fatugrab/static/media/insumos.86e1f2025b07893e9e0e.png",
+    "static/media/shablones.png": "/fatugrab/static/media/shablones.90cd4e5327c65b1084ba.png",
+    "static/media/remeras.png": "/fatugrab/static/media/remeras.0b60c9c41694313a7c09.png",
+    "static/media/logo.png": "/fatugrab/static/media/logo.66d1cf22e9b734347b66.png",
+    "static/media/shablones2.png": "/fatugrab/static/media/shablones2.4be6cfff35233c57f49b.png",
+    "static/media/whatsapp.png": "/fatugrab/static/media/whatsapp.807cf0d84060a9ee2059.png",
+    "static/media/about3.jpg": "/fatugrab/static/media/about3.62029b72e8b29a3e1207.jpg",
+    "static/media/about2.jpg": "/fatugrab/static/media/about2.ed337f143e7bf77b0537.jpg",
+    "static/media/about1.webp": "/fatugrab/static/media/about1.adb2f86fd4d70fcfe4bc.webp",
+    "static/media/pin5.png": "/fatugrab/static/media/pin5.9507b29ad6e35910ed4e.png",
+    "static/media/pin2.png": "/fatugrab/static/media/pin2.f2a40efbd587fcb35ae2.png",
+    "static/media/pin1.png": "/fatugrab/static/media/pin1.cdfea5bcd380a4b2000e.png",
+    "static/media/photography.png": "/fatugrab/static/media/photography.a5dee6c2e9ff32337096.png",
+    "static/media/vortex.png": "/fatugrab/static/media/vortex.b9c1d29570f3d7c3b8a8.png",
+    "static/media/holux.png": "/fatugrab/static/media/holux.b870c6810018f413e577.png",
+    "static/media/gasatex.png": "/fatugrab/static/media/gasatex.385e4951a80555da24e1.png",
+    "static/media/tecnodas.png": "/fatugrab/static/media/tecnodas.d1c9c43469af7beddc32.png",
+    "index.html": "/fatugrab/index.html",
+    "main.fd7c1797.css.map": "/fatugrab/static/css/main.fd7c1797.css.map",
+    "main.7c64c471.js.map": "/fatugrab/static/js/main.7c64c471.js.map",
+    "787.4367f2dd.chunk.js.map": "/fatugrab/static/js/787.4367f2dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd7c1797.css",
+    "static/js/main.7c64c471.js"
+  ]
+}
