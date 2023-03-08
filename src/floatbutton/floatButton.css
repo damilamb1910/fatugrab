@@ -1,0 +1,15 @@
+.floatButton{
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+    cursor: pointer;
+}
+
+.floatButton__img{
+width: 80px;
+bottom: 30px;
+    right: 30px;
+    position: fixed;
+    cursor: pointer;
+}
+

@@ -1,0 +1,51 @@
+.nosotros__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.logo__animado{
+    width: 500px;
+    filter: drop-shadow(1px 1px 0.1px black);
+   
+    
+}
+
+.landing__nosotros{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccccc;
+  background-image: linear-gradient(#D40402, white);
+}
+
+.nosotros__container h3{
+    width: 70%;
+    text-align: center;
+}
+
+.nostros__text__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    margin-right: 40px;
+}
+
+.acerca__card{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.acerca__card img{
+    width: 500px;
+    margin-right: 40px;
+}

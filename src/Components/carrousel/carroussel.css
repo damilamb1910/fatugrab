@@ -1,0 +1,38 @@
+.carrouesel__container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: antiquewhite;
+ padding-top: 100px;
+ padding-bottom: 20px;
+    
+}
+
+.carrousel__info__container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+    .carrouesel__container{
+        flex-flow: column;
+        height: 50vh;
+        margin-top: 100px;
+        padding-top:100px ;
+        padding-bottom: 500px;
+        
+    }
+    .carrousel__info__container{
+        align-items: center;
+        align-content: center;
+        width: 100%;
+    }
+    .carrousel__info__container h2{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    }
