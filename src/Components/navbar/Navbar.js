@@ -12,11 +12,17 @@ const Navbar=()=>{
     const [menu, setMenu]=useState(false)
     const toggleMenu=()=>{
         setMenu(!menu)
-        
+          
     }
+    const comprobar=()=>{
+        if(menu===true){
+            toggleMenu()
+        }
+    }
+    
     return(
         
-        <header>
+        <header onClick={comprobar}>
            <Link to={"/fatugrab"} ><img className="logo" src={logo} alt="" /></Link>
  
            <button onClick={toggleMenu} className="menu-boton">

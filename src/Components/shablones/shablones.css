@@ -27,7 +27,7 @@
     flex-direction: row;
     height: 80vh;
     background-color: white;
-    align-items: start;
+    align-items: center;
     
 }
 .product__img{
@@ -43,3 +43,24 @@
     width: 55%;
     margin: 10px;
 }
+
+@media screen and (max-width:800px) {
+    .product__detail{
+        width: 350px;
+        height: 1000px;
+        
+        
+    }
+    .product{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .product__info{
+        align-items: center;
+      
+        height: 400px;
+        width: 90%;
+        margin: 5px;
+    }
+  }

@@ -49,3 +49,28 @@
     width: 500px;
     margin-right: 40px;
 }
+
+@media screen and (max-width:800px) {
+    .nosotros__container{
+        width: 100%;
+       
+    }
+
+    .nostros__text__container{
+        width: 300px;
+        margin-right: 0px;
+    }
+
+    .acerca__card img{
+        height: 300px;
+        margin-right: 0px;
+    }
+
+    .acerca__card{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
