@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/fatugrab/static/css/main.73b6be90.css",
-    "main.js": "/fatugrab/static/js/main.16b8575c.js",
+    "main.css": "/fatugrab/static/css/main.37f0d223.css",
+    "main.js": "/fatugrab/static/js/main.4d0adfa1.js",
     "static/js/787.4367f2dd.chunk.js": "/fatugrab/static/js/787.4367f2dd.chunk.js",
+    "static/media/bajadas.png": "/fatugrab/static/media/bajadas.f2d7be0686124468173b.png",
     "static/media/insumos.png": "/fatugrab/static/media/insumos.86e1f2025b07893e9e0e.png",
-    "static/media/shablones.png": "/fatugrab/static/media/shablones.90cd4e5327c65b1084ba.png",
+    "static/media/shablones.png": "/fatugrab/static/media/shablones.cd9c98ff81d688836da0.png",
     "static/media/remeras.png": "/fatugrab/static/media/remeras.0b60c9c41694313a7c09.png",
     "static/media/logo.png": "/fatugrab/static/media/logo.66d1cf22e9b734347b66.png",
     "static/media/shablones2.png": "/fatugrab/static/media/shablones2.4be6cfff35233c57f49b.png",
@@ -21,12 +22,12 @@
     "static/media/gasatex.png": "/fatugrab/static/media/gasatex.385e4951a80555da24e1.png",
     "static/media/tecnodas.png": "/fatugrab/static/media/tecnodas.d1c9c43469af7beddc32.png",
     "index.html": "/fatugrab/index.html",
-    "main.73b6be90.css.map": "/fatugrab/static/css/main.73b6be90.css.map",
-    "main.16b8575c.js.map": "/fatugrab/static/js/main.16b8575c.js.map",
+    "main.37f0d223.css.map": "/fatugrab/static/css/main.37f0d223.css.map",
+    "main.4d0adfa1.js.map": "/fatugrab/static/js/main.4d0adfa1.js.map",
     "787.4367f2dd.chunk.js.map": "/fatugrab/static/js/787.4367f2dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73b6be90.css",
-    "static/js/main.16b8575c.js"
+    "static/css/main.37f0d223.css",
+    "static/js/main.4d0adfa1.js"
   ]
 }
