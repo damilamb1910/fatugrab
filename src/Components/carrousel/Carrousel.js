@@ -38,12 +38,12 @@ color:#EC1C24 ;
 const Carrousel = () => {
   
 
-const titulos=['SHABLONES','INSUMOS','REMERAS']
-const subtitulos=['La mejor calidad de shablones. Somos fabricantes.','La más amplia variedad de insumos.','Somos fabricantes de remeras lisa para asegurar la mayor calidad de tus trabajos.']
+const titulos=['SHABLONES','INSUMOS','REMERAS','BAJADAS']
+const subtitulos=['La mejor calidad de shablones. Somos fabricantes.','La más amplia variedad de insumos.','Somos fabricantes de remeras lisa para asegurar la mayor calidad de tus trabajos.','Bajadas de positivos en gran formato']
 const [selectedSubtitulo,setSelectedSubtitulo]=useState(subtitulos[0])
 const [selectedTitulo,setSelectedTitulo]=useState(titulos[0])
   const[selectedIndex,setSelectedIndex]=useState(0)
-  const images=['shablones.png','insumos.png','remeras.png']
+  const images=['shablones.png','insumos.png','remeras.png','bajadas.png']
   const links=['/shablones','/nosotros',"/"]
   const[selectedLink,setSelectedLink]=useState(links[0])
   const [selectedImage,setSelectedImage]=useState(images[0])

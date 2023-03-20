@@ -2,13 +2,13 @@ import { useState } from "react"
 import "./itemCount.css"
 
 
-const ItemCount=({stock,onAdd})=>{
+const ItemCount=({onAdd})=>{
 
 
 
     const agregarCarrito=()=>{
         
-        if(contador<=stock && contador >=1){
+        if( contador >=1){
             
         
             onAdd(contador)
@@ -25,9 +25,9 @@ const ItemCount=({stock,onAdd})=>{
     
     const[contador,setContador]=useState(1)
     const sumar=()=>{
-        if(stock>contador){
+        
     setContador(contador + 1)
-        }
+        
 }
 
 

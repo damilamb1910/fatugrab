@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import logo from '../../assets/logo.png'
 import './navbar.css' 
+import CartWidget from "../cartwidget/CartWidget";
 
 
 
@@ -24,6 +25,7 @@ const Navbar=()=>{
         
         <header onClick={comprobar}>
            <Link to={"/fatugrab"} ><img className="logo" src={logo} alt="" /></Link>
+           
  
            <button onClick={toggleMenu} className="menu-boton">
            <svg className="menu" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"  viewBox="0 0 16 16">
@@ -32,15 +34,19 @@ const Navbar=()=>{
            </button>
            <nav className={ `nav__page ${menu ? 'isActive' : ''}` }>
         <ul className="nav__ul">
-          
-            <Link to={'/shablones'} ><li className="nav__li">Shablones</li> </Link>
+        <Link to={'/cart'}><CartWidget/></Link>
+            <Link to={`/detail/shablones`} ><li className="nav__li">Shablones</li> </Link>
             <li className="nav__li">Insumos</li>
-            <li className="nav__li">Accesorios</li>
+            <Link to={'/detail/remeras'}><li className="nav__li">Remeras</li></Link>
+            <Link to={'detail/bajadas'} ><li className="nav__li">Bajadas en gran formato</li></Link>
+            <Link to={'categoria/accesorios'}><li className="nav__li">Accesorios</li></Link>
             <Link to={'/nosotros'}><li className="nav__li">Nosotros</li>  </Link>
             <li className="nav__li">Contacto</li>
+            
+           
         </ul>
        </nav>
-    
+       
            
         </header>
      

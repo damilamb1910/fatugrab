@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
-import FloatButton from '../../floatbutton/FloatButton'
+import FloatButton from '../floatbutton/FloatButton'
+
 import './footer.css'
 
 const Footer = () => {

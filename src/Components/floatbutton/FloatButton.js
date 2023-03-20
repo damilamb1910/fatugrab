@@ -9,7 +9,7 @@ const FloatButton = () => {
     }
   return (
     <div>
-       <img onClick={handleClickFloat} id='floatButton' className='floatButton__img' src={require('../assets/whatsapp.png')} alt="" />
+       <img onClick={handleClickFloat} id='floatButton' className='floatButton__img' src={require('../../assets/whatsapp.png')} alt="" />
     </div>
   )
 }

@@ -19,10 +19,10 @@
 @media screen and (max-width:480px) {
     .carrouesel__container{
         flex-flow: column;
-        height: 50vh;
-        margin-top: 100px;
+        height: 400px;
+        margin-top: 50px;
         padding-top:100px ;
-        padding-bottom: 500px;
+        padding-bottom: 400px;
         
     }
     .carrousel__info__container{

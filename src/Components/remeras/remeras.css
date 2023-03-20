@@ -1,0 +1,11 @@
+.color__blanco{
+    background-color: white;
+}
+.color__negro{
+    background-color: black;
+    color: white;
+}
+.color__gris{
+    background-color: gray;
+    color: black;
+}
