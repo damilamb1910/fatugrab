@@ -16,6 +16,22 @@ useEffect(()=>{
     }
 },[])
 
+const handleClick=(e)=>{
+  if(e.target.attributes.id.value==='logo__damian'){
+    window.open('https://github.com/damilamb1910', '_blank')
+  }else if(e.target.attributes.id.value==='facebook'){
+    window.open('https://www.facebook.com/damian.lamberti.9', '_blank')
+  }else if(e.target.attributes.id.value==='instagram'){
+    window.open('https://www.instagram.com/damianlamberti/', '_blank')
+  }else if(e.target.attributes.id.value==='github'){
+    window.open('https://github.com/damilamb1910', '_blank')
+  }else if(e.target.attributes.id.value==='whatsapp'){
+    window.open('https://wa.me/1136684089', '_blank')
+  }
+  
+  console.log(e.target.attributes.id.value)
+}
+
   return (
     <>
     <FloatButton/>
@@ -59,7 +75,7 @@ useEffect(()=>{
 
 <div className='marketing'>
 <h4>© 2023 · Desarrollado por </h4>
-      <img src={require("../../assets/marketing/logo.png")} alt="" />
+      <img onClick={handleClick} id='logo__damian' src={require("../../assets/marketing/logo.png")} alt="" />
 </div>
       
     </div>

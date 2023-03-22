@@ -28,6 +28,7 @@ h4{
 
 .footer__info__items h4{
     margin-left: 5px;
+    font-size: 18px;
 }
 
 .marketing{
@@ -42,12 +43,16 @@ h4{
 }
 
 .marketing img{
-    
-    
+    cursor: pointer;
+    margin-bottom: 10px;
     width: 110px;
-    padding-bottom: 4px;
+    padding-bottom: 5px;
     filter: drop-shadow( 1px 1px 1px #000 );
 
+}
+
+.marketing h4{
+    font-size: 15px;
 }
 
 .linea{

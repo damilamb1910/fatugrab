@@ -19,14 +19,16 @@ const CartContext=({children}) => {
         console.log(cart)
      }
 
-    const añadir=(item,quantity)=>{
+    const añadir=(item,quantity,hilos,medida,talle,color,papel)=>{
         
-        const preguntar = cart.findIndex(pro=>pro.item.id ===item.id)
+        const preguntar = cart.findIndex(pro=>pro.item.id  ===item.id && pro.hilos === hilos && pro.medida === medida && pro.talle === talle && pro.color === color && pro.papel === papel)
         if (preguntar!== -1){
-           const newCart = cart.filter(item => item !== cart[preguntar])
-          setCart([{item, quantity}, ...newCart])
+           const newCart = cart.filter(item => item  !== cart[preguntar])
+           
+          setCart([{item, quantity, hilos,medida,talle,color,papel }, ...newCart])
         }else{
-            setCart([...cart,{ item, quantity }]);
+            
+            setCart([...cart,{ item, quantity,hilos,medida,talle,color,papel }]);
         } 
   
         

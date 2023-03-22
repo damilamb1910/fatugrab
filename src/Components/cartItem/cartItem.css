@@ -1,8 +1,11 @@
 .item__carro{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    border-bottom: solid;
-    width: 100%;
+    border: solid #74736E;
+    width: 250px;
+    padding: 10px;
     border-radius: 10px;
+    color: black;
+    margin-top: 5px;
 }

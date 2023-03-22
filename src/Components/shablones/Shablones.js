@@ -7,6 +7,7 @@ import { useEffect,useState,useContext } from 'react';
 import Loading from '../loading/Loading';
 import { motion } from "framer-motion"
 import { Context } from '../../context/CartContext';
+import Swal from 'sweetalert2'
 
 const Shablones = () => {
   const {añadir2}=useContext(Context);
