@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fatugrab/static/css/main.e5640702.css",
-    "main.js": "/fatugrab/static/js/main.b4c4a540.js",
+    "main.js": "/fatugrab/static/js/main.24e301f1.js",
     "static/js/787.4367f2dd.chunk.js": "/fatugrab/static/js/787.4367f2dd.chunk.js",
     "static/media/bajadas.png": "/fatugrab/static/media/bajadas.f2d7be0686124468173b.png",
     "static/media/insumos.png": "/fatugrab/static/media/insumos.86e1f2025b07893e9e0e.png",
@@ -23,11 +23,11 @@
     "static/media/tecnodas.png": "/fatugrab/static/media/tecnodas.d1c9c43469af7beddc32.png",
     "index.html": "/fatugrab/index.html",
     "main.e5640702.css.map": "/fatugrab/static/css/main.e5640702.css.map",
-    "main.b4c4a540.js.map": "/fatugrab/static/js/main.b4c4a540.js.map",
+    "main.24e301f1.js.map": "/fatugrab/static/js/main.24e301f1.js.map",
     "787.4367f2dd.chunk.js.map": "/fatugrab/static/js/787.4367f2dd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5640702.css",
-    "static/js/main.b4c4a540.js"
+    "static/js/main.24e301f1.js"
   ]
 }
