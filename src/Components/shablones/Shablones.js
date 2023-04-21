@@ -50,7 +50,7 @@ const [medidas,setMedidas]=useState('')
     animate="show" className='product__detail__container'>
     <motion.div  variants={item} className='product__detail'>
       <div className='product'>
-        <img className='product__img' src={require('../../assets/images/shablones2.png')} alt="" />
+        <img className='product__img' src={require('../../assets/images/maniguetas.png')} alt="" />
         <div className='product__info'>
           <h2>SHABLONES</h2>
           <h4>Desde $2250</h4>

@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom"
 import { db } from "../../firebase/firebase"
 import { getDocs,collection,query,where } from "firebase/firestore"
 import Spinner from 'react-bootstrap/Spinner';
+import './itemListContainer.css'
 
 const ItemListContainer = () => {
 
@@ -44,13 +45,15 @@ const ItemListContainer = () => {
         return(
         <>
         
-        
+        <div className='itemList__container'>
         {
             loading ? <div className="centrado"> <Spinner animation="border" variant="primary" /></div>
            
         :
         <ItemList listProductos={listProductos}/>
         }
+        </div>
+        
         
         </>
             

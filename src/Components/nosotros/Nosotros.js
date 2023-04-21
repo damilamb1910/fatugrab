@@ -466,7 +466,7 @@ id="t2" d="M18554 2347 c-3 -8 -4 -47 -2 -88 l3 -74 174 -3 c108 -1 180 -7 188
   >
       <div className='acerca__card'>
       <img src={require('../../assets/images/about1.webp')} alt="" />
-      <p>Con 10 años de experiencia en el mercado, nos enorgullece ser uno de los principales distribuidores de insumos para serigrafía en Merlo, Buenos Aires y enviamos a todo el interior del país.</p>
+      <p>Con 18 años de experiencia en el mercado, nos enorgullece ser uno de los principales distribuidores de insumos para serigrafía en Merlo, Buenos Aires y enviamos a todo el interior del país.</p>
       </div>
       </motion.div>
 
@@ -477,7 +477,7 @@ id="t2" d="M18554 2347 c-3 -8 -4 -47 -2 -88 l3 -74 174 -3 c108 -1 180 -7 188
   transition={{ duration: 2, times: [0, 1] }}
   >
       <div className='acerca__card'>
-      <p>En Fatugrab, nos apasiona ofrecer una amplia gama de productos de alta calidad que incluyen tintas, marcos, mallas, rasquetas y todo lo que necesita para garantizar una producción de impresión en serigrafía de alta calidad. Trabajamos con los principales fabricantes para ofrecer productos duraderos y eficientes para sus proyectos de impresión.
+      <p>En Fatugrab, nos apasiona ofrecer una amplia gama de productos de alta calidad que incluyen tintas, marcos, mallas, maniguetas y todo lo que necesita para garantizar una producción de impresión en serigrafía de alta calidad. Trabajamos con los principales fabricantes para ofrecer productos duraderos y eficientes para sus proyectos de impresión.
 Pero nuestra dedicación no termina allí. En Fatugrab, nos enorgullece brindar un excelente servicio al cliente. Sabemos que la impresión en serigrafía puede ser un proceso complejo y que a veces puede surgir algún problema, por eso, estamos disponibles para ofrecer asesoramiento y soporte técnico para ayudarle en cualquier momento.</p>
       <img src={require('../../assets/images/about2.jpg')} alt="" />
       

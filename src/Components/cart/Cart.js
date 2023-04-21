@@ -53,7 +53,7 @@ const {cart,removeItem,precioTotal,clear}=useContext(Context)
        
        </div>}
       {console.log(cart)}
-       {cart.length!==0 &&  <div><p> total ${precioTotal()}</p> <Button onClick={()=>clear()}>Limpiar carro</Button><Button><ReactWhatsapp number="1136684089" message={  cart.map((item2)=>
+       {cart.length!==0 &&  <div><p> total ${precioTotal()}</p> <Button onClick={()=>clear()}>Limpiar carro</Button><Button><ReactWhatsapp number="541136684089" message={  cart.map((item2)=>
         
         `
     _${(item2.item.nombre).toUpperCase()}_ 
@@ -62,6 +62,17 @@ const {cart,removeItem,precioTotal,clear}=useContext(Context)
     *Cantidad* = ${item2.quantity} 
     -------------------------------
     `)}>Finalizar compra</ReactWhatsapp>  </Button>
+    <Button onClick={()=>{
+       window.open(`https://wa.me/541136684089/?text=${cart.map((item2)=>
+        
+       `
+   _${(item2.item.nombre).toUpperCase()}_%0A
+
+   ${preguntarId(item2)}%0A
+   *Cantidad* = ${item2.quantity}%0A
+   -------------------------------
+   %0A`)}`,'_blank') 
+    }}>comprar 2</Button>
     </div>}
         </div>
         
