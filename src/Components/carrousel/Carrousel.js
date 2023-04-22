@@ -77,6 +77,7 @@ selectNewImage(selectedIndex,images,false)
       <div>
       <CarouselImg className={loaded ? "loaded": ""} src={require(`../../assets/images/${selectedImage}`)} alt="cosa" onLoad={()=>setLoaded(true)} />
       
+      
       </div>
       
       <div className='carrousel__info__container'>

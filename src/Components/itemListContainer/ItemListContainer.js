@@ -14,7 +14,7 @@ const ItemListContainer = () => {
   const {categoriaId}=useParams()
 
   useEffect(()=>{
-
+    window.scrollTo(0, 0)
     setLoading(true)
         const prodCollection=collection(db,'products')
     
@@ -50,7 +50,7 @@ const ItemListContainer = () => {
             loading ? <div className="centrado"> <Spinner animation="border" variant="primary" /></div>
            
         :
-        <ItemList listProductos={listProductos}/>
+        <ItemList listProductos={listProductos} categoria={categoriaId}/>
         }
         </div>
         

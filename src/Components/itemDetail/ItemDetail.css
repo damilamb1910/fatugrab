@@ -1,3 +1,17 @@
 .product__info h2{
     text-transform: uppercase;
 }
+@media (max-width: 480px) {
+    .product{
+        height: 100%;
+        text-align: center;
+    }
+    .product__detail{
+        height: max-content;
+        padding-bottom: 50px;
+    }
+    
+    .product__info{
+        height: max-content;
+    }
+}

@@ -2,13 +2,16 @@ import React from 'react'
 import CardGroup from 'react-bootstrap/CardGroup';
 import { Link } from "react-router-dom";
 import Item from "../item/Item"
+import "./itemList.css"
 
-const ItemList=({listProductos})=>{
+const ItemList=({listProductos,categoria})=>{
     
   return(
       <>
-      <div className="container">
+      <div className="list__container">
+      <h2 className='titulo__lista'>{categoria}</h2>
       <CardGroup>
+        {console.log(categoria)}
 
 {listProductos.map((prod, i)=> 
 

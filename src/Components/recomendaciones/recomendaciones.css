@@ -1,5 +1,6 @@
-.card__img{
+.card__img__recomendacion{
     width: 100px;
+    cursor: pointer;
 }
 
 .card__container{
@@ -21,9 +22,9 @@
     width: 100%;
 }
 
-.card{
+.card__recomendaciones{
     font-family: Lecsya !important;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -33,6 +34,7 @@
     margin: 20px;
     align-content: center;
     align-items: center;
+
 }
 
 .section__recomendaciones h2{
@@ -44,6 +46,10 @@ background-color: #1D1D1D;
 padding: 10px;
 font-family: Lecsya !important;
 font-weight: bold;
+}
+
+.icon__recomendacion{
+    cursor: pointer;
 }
 
 

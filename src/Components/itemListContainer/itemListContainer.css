@@ -8,3 +8,9 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+@media (max-width: 480px) {
+    .itemList__container{
+        height: max-content;
+    }
+}

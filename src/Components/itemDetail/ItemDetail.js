@@ -109,8 +109,7 @@ notify()
         <img className='product__img' src={producto.img} alt="" />
         <div className='product__info'>
           <h2>{producto.nombre}</h2>
-          <h4>{producto.precio}</h4>
-          <p>{producto.description}</p>
+          <p className='description'>{producto.description}</p>
 
           {producto.id==="shablones" && <Form >
             <Form.Group onChange={(e)=>{setHilos(e.target.value)}}>

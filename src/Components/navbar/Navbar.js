@@ -36,12 +36,13 @@ const Navbar=()=>{
         <ul className="nav__ul">
         <Link to={'/cart'}><CartWidget/></Link>
             <Link to={`/detail/shablones`} ><li className="nav__li">Shablones</li> </Link>
-            <li className="nav__li">Insumos</li>
+            <Link to={`categoria/insumos`}><li className="nav__li">Insumos</li></Link>
+            
             <Link to={'/detail/remeras'}><li className="nav__li">Remeras</li></Link>
             <Link to={'detail/bajadas'} ><li className="nav__li">Bajadas en gran formato</li></Link>
             <Link to={'categoria/accesorios'}><li className="nav__li">Accesorios</li></Link>
             <Link to={'/nosotros'}><li className="nav__li">Nosotros</li>  </Link>
-            <li className="nav__li">Contacto</li>
+            
             
            
         </ul>

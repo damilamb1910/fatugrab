@@ -22,7 +22,8 @@ const CartItem=({item,removeItem})=>{
             
         <h4  >{(item.item.nombre).toUpperCase()}</h4>
         {preguntarId(item)}
-        <h5>$ por unidad:{item.item.precio}</h5>
+        {/* <h5>$ por unidad:{item.item.precio}</h5> */}
+        
         <h6>Cantidad:{item.quantity}</h6>
         { isNaN(item.quantity * item.item.precio) ? '': <p>Subtotal:{item.quantity * item.item.precio}</p> }
         {console.log(item.quantity * item.item.precio)}

@@ -1,4 +1,10 @@
 .nombre__card{
     color: black;
     text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.card__list{
+    margin-top: 10px;
 }

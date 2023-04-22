@@ -15,6 +15,7 @@ const {id}=useParams()
 
     
     useEffect(()=>{
+        window.scrollTo(0, 0)
         setLoading(true)
         const productCollection=collection(db,'products')
         const refDoc = doc(productCollection,id)
