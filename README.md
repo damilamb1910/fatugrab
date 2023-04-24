@@ -1,4 +1,5 @@
 # Fatugrab Oeste - Tienda Online de Insumos para Serigrafía
+! [Bade en desarrollo] (https://img.shields.io/badge/<STATUS-EN%20DESAROLLO-green>)
 
 Bienvenido a Fatugrab Oeste, la tienda online especializada en la venta de insumos para serigrafía. Este proyecto fue desarrollado utilizando React JS y Bootstrap para crear una experiencia de compra fácil y agradable para nuestros clientes.
 
@@ -17,7 +18,7 @@ Para ingresar a la página [click aqui](https://fatugrab.netlify.app/).
 * Pedido por Whatsapp: al finalizar la compra el carrito es enviado al número de Whatsapp del emprendedor para cerrar la compra.
 
 
-## Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 
 React JS: una biblioteca de JavaScript para construir interfaces de usuario.
 
@@ -30,5 +31,7 @@ Git y GitHub: herramientas para el control de versiones y el alojamiento de cód
 Firebase: control de base de datos no sql y storage.
 
 ## Autor
+
+| [<img src="https://avatars.githubusercontent.com/u/69870065?v=4" width=115><br><sub>Damián Lamberti</sub>](https://github.com/damilamb1910) |
 
 Fatugrab Oeste fue desarrollada por Damian Lamberti. Si tiene alguna pregunta o comentario sobre la tienda, puede contactar al autor a través del correo electrónico damilamb1910@gmail.com.
