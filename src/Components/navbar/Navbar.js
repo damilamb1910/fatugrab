@@ -24,7 +24,7 @@ const Navbar=()=>{
     return(
         
         <header onClick={comprobar}>
-           <Link to={"/fatugrab"} ><img className="logo" src={logo} alt="" /></Link>
+           <Link to={"/"} ><img className="logo" src={logo} alt="" /></Link>
            
  
            <button onClick={toggleMenu} className="menu-boton">

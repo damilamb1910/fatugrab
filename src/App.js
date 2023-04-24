@@ -23,7 +23,7 @@ function App() {
     <Routes>
       <Route path="/detail/:id" element={<ItemDetailContainer/>}/>
     <Route path="/categoria/:categoriaId" element={<ItemListContainer/>}/>
-    <Route path="/fatugrab" element={<Home/>}/>
+    <Route path="/" element={<Home/>}/>
     <Route path="/nosotros" element={<Nosotros/>}/>
     <Route path="/shablones" element={<Shablones/>}/>
     <Route path="/remeras" element={<Remeras/>}/>
