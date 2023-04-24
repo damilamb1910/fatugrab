@@ -1,5 +1,5 @@
 # Fatugrab Oeste - Tienda Online de Insumos para Serigrafía
-! [Bade en desarrollo] (https://img.shields.io/badge/<STATUS-EN%20DESAROLLO-green>)
+![Bade en desarrollo](https://img.shields.io/badge/<STATUS>-<EN%20DESAROLLO>-<green>)
 
 Bienvenido a Fatugrab Oeste, la tienda online especializada en la venta de insumos para serigrafía. Este proyecto fue desarrollado utilizando React JS y Bootstrap para crear una experiencia de compra fácil y agradable para nuestros clientes.
 
