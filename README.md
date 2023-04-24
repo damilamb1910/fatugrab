@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Fatugrab Oeste - Tienda Online de Insumos para Serigrafía
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenido a Fatugrab Oeste, la tienda online especializada en la venta de insumos para serigrafía. Este proyecto fue desarrollado utilizando React JS y Bootstrap para crear una experiencia de compra fácil y agradable para nuestros clientes.
 
-## Available Scripts
+Para ingresar a la página [click aqui](https://fatugrab.netlify.app/).
 
-In the project directory, you can run:
+## Características
 
-### `npm start`
+* Diseño moderno y responsivo, con una interfaz de usuario fácil de usar en dispositivos móviles y computadoras.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Amplio catálogo de productos, organizados por categorías.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Detalles de los productos: cada producto cuenta con una página de detalles que incluye información detallada sobre el producto e imágenes.
 
-### `npm test`
+* Carrito de compras: los clientes pueden agregar y eliminar productos fácilmente.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Pedido por Whatsapp: al finalizar la compra el carrito es enviado al número de Whatsapp del emprendedor para cerrar la compra.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologías utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React JS: una biblioteca de JavaScript para construir interfaces de usuario.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Bootstrap: un framework de CSS para el desarrollo de interfaces web.
 
-### `npm run eject`
+HTML y CSS: los lenguajes estándar para la creación de sitios web.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Git y GitHub: herramientas para el control de versiones y el alojamiento de código.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Firebase: control de base de datos no sql y storage.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Autor
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fatugrab Oeste fue desarrollada por Damian Lamberti. Si tiene alguna pregunta o comentario sobre la tienda, puede contactar al autor a través del correo electrónico damilamb1910@gmail.com.

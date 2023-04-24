@@ -11,7 +11,7 @@ const ItemList=({listProductos,categoria})=>{
       <div className="list__container">
       <h2 className='titulo__lista'>{categoria}</h2>
       <CardGroup>
-        {console.log(categoria)}
+       
 
 {listProductos.map((prod, i)=> 
 

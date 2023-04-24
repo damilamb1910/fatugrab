@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './item.css'
-import { useState } from 'react';
+
 
 
 const Item=({producto})=>{

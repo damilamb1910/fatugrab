@@ -1,5 +1,5 @@
 import { Context } from '../../context/CartContext';
-import { useContext,useState } from 'react';
+import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import ReactWhatsapp from 'react-whatsapp';
@@ -25,7 +25,7 @@ import CartItem from '../cartItem/CartItem';
 
 export const Cart=()=>{
 
-const {cart,removeItem,precioTotal,clear}=useContext(Context)
+const {cart,removeItem,clear}=useContext(Context)
 
 
   
@@ -52,8 +52,8 @@ const {cart,removeItem,precioTotal,clear}=useContext(Context)
        </Link>
        
        </div>}
-      {console.log(cart)}
-       {cart.length!==0 &&  <div>{/* <p> total ${precioTotal()}</p> */} <Button onClick={()=>clear()}>Limpiar carro</Button><Button><ReactWhatsapp number="541136684089" message={  cart.map((item2)=>
+      
+       {cart.length!==0 &&  <div> <Button onClick={()=>clear()}>Limpiar carro</Button><Button><ReactWhatsapp number="541136684089" message={  cart.map((item2)=>
         
         `
     _${(item2.item.nombre).toUpperCase()}_ 
@@ -63,17 +63,7 @@ const {cart,removeItem,precioTotal,clear}=useContext(Context)
     -------------------------------
     `)}>Finalizar compra</ReactWhatsapp>  </Button>
 
-{/* <Button onClick={()=>{
-       window.open(`https://wa.me/541136684089/?text=${cart.map((item2)=>
-        
-       `
-   _${(item2.item.nombre).toUpperCase()}_%0A
 
-   ${preguntarId(item2)}%0A
-   *Cantidad* = ${item2.quantity}%0A
-   -------------------------------
-   %0A`)}`,'_blank') 
-    }}>comprar 2</Button> */}
 
     
     </div>}

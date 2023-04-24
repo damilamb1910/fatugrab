@@ -16,7 +16,7 @@ const CartContext=({children}) => {
 
      const añadir2=(quantity)=>{
         setCart([...cart,{quantity}])
-        console.log(cart)
+        
      }
 
     const añadir=(item,quantity,hilos,medida,talle,color,papel)=>{

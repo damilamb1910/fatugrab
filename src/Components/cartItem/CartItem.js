@@ -26,7 +26,7 @@ const CartItem=({item,removeItem})=>{
         
         <h6>Cantidad:{item.quantity}</h6>
         { isNaN(item.quantity * item.item.precio) ? '': <p>Subtotal:{item.quantity * item.item.precio}</p> }
-        {console.log(item.quantity * item.item.precio)}
+        
         <Button onClick={()=>removeItem(item)} > Quitar</Button>
         </div>
     )

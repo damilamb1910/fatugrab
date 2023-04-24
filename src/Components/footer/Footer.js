@@ -29,7 +29,7 @@ const handleClick=(e)=>{
     window.open('https://wa.me/1136684089', '_blank')
   }
   
-  console.log(e.target.attributes.id.value)
+  
 }
 
   return (
