@@ -53,7 +53,7 @@ const {cart,removeItem,clear}=useContext(Context)
        
        </div>}
       
-       {cart.length!==0 &&  <div> <Button onClick={()=>clear()}>Limpiar carro</Button><Button><ReactWhatsapp number="541136684089" message={  cart.map((item2)=>
+       {cart.length!==0 &&  <div> <Button onClick={()=>clear()}>Limpiar carro</Button><Button><ReactWhatsapp number="541167526139" message={  cart.map((item2)=>
         
         `
     _${(item2.item.nombre).toUpperCase()}_ 
