@@ -45,7 +45,7 @@ const {cart,removeItem,clear}=useContext(Context)
        ): <div className='texto'>
            <h6>Aún no tenés productos en el carrito 😐😐</h6>
            
-       <Link to={"/fatugrab"}>
+       <Link to={"/"}>
            <Button>
            Agregar productos
            </Button>
