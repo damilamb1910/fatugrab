@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './carroussel.css';
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
+import { useSwipeable } from 'react-swipeable';
 
 const CarouselImg = styled.img`
   
@@ -34,6 +35,8 @@ color:#EC1C24 ;
 
 
 `;
+
+
 
 const Carrousel = () => {
   
@@ -71,9 +74,19 @@ selectNewImage(selectedIndex,images,false)
   const next=()=>{
     selectNewImage(selectedIndex,images)
   }
+
+  const handlers = useSwipeable({
+    onSwipedLeft: () => previus(),
+    onSwipedRight: () => next(),
+  });
+  
+
   return (
     <>
-    <div className='carrouesel__container'>
+   
+    
+
+  <  div {...handlers} className='carrouesel__container'>
       <div>
       <CarouselImg className={loaded ? "loaded": ""} src={require(`../../assets/images/${selectedImage}`)} alt="cosa" onLoad={()=>setLoaded(true)} />
       
@@ -89,10 +102,12 @@ selectNewImage(selectedIndex,images,false)
       
      
     </div>
+
+
     
     <CarouselButtonContainer >
-    <CarouselButton onClick={previus}>{"<"}</CarouselButton>
-    <CarouselButton onClick={next}>{">"}</CarouselButton>
+    <CarouselButton id='contenedorControlesprev' onClick={previus}>{"<"}</CarouselButton>
+    <CarouselButton id='contenedorControlesnext' onClick={next}>{">"}</CarouselButton>
 </CarouselButtonContainer>
     </>
     
