@@ -50,6 +50,11 @@
     margin-right: 40px;
 }
 
+.landing__nosotros img{
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+
 @media screen and (max-width:800px) {
     .nosotros__container{
         width: 100%;

@@ -1,12 +1,12 @@
 
 .logo{
-    width: 150px;
+    width: 250px;
     
     
   }
   .menu-boton{
     display: none;
-    margin-right: 1em;
+    margin-right: 5em;
    
   }
   .nav__ul{
@@ -29,7 +29,7 @@ a{
 
   header{
    
-    background-color: #FFFFFF;
+    background-color: black;
     flex-flow: row wrap;
     display: flex;
     justify-content: space-between;
@@ -51,7 +51,7 @@ a{
 
 
 
-  @media screen and (max-width:800px) {
+  @media screen and (max-width:1024px) {
     .menu-boton{
       display:flex;
     }
